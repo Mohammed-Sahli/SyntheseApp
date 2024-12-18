@@ -18,22 +18,17 @@ export const routes: Routes = [
         pathMatch:'full'
     },
     {
-        path:'./models/',
-        component: User,
-        pathMatch:'full' 
-    },
-    {
         path:'./',
         component: UsersComponent,
         pathMatch:'full'   
     },
     {
-        path:'./',
+        path:'about',
         component: AboutComponent,
         pathMatch:'full'   
     },
     {
-        path:'./',
+        path:'',
         component: UserCardComponentComponent,
         pathMatch:'full'   
     }

@@ -14,7 +14,7 @@ export class AppComponent {
   title = 'SyntheseApp';
 
 ngOnInit(){
-  let user: User=new User(23,"Alice","alice@gmail.com")
-  console.log(user);
+  let alice = new User(23,"Alice","alice@gmail.com")
+  console.log(alice);
 }
 }
